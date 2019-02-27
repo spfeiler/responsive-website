@@ -1,0 +1,42 @@
+html {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu {
+  list-style: none;
+  display: flex;
+  background-color: darkred;
+  color: white;
+}
+
+#menu li {
+  padding: 10px 30px;
+}
+
+#flowers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.flower {
+  width: 225px;
+  height: 225px;
+  padding: 15px 15px 0px 15px;
+}
+
+p {
+  text-align: center;
+}
